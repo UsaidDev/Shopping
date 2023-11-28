@@ -10,7 +10,7 @@ function Home() {
       </div>
       <div className="container">
         <div className="row mt-4">
-          {Products.map((e, index) => (
+          {Products.map((e, index,image) => (
             <div className='col-12 col-md-12 col-lg-4 mb-4' >
               <div className="card mt-3 mx-auto">
                 <img className="card-img-top" src={e.image} alt="Card image cap" />
@@ -28,6 +28,6 @@ function Home() {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 export default Home;
