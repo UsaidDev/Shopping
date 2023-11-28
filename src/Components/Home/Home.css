@@ -1,0 +1,20 @@
+.home-heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title {
+    font-size: 50px;
+    font-weight: 900;
+    font-family: 'Poppins',sans-serif;
+    padding-top: 10px;
+}
+.card{
+    border-radius: 20px;
+    width: 18rem;
+}
+.card-img-top{
+    border-radius: 20px;
+    height: 17rem;
+}
