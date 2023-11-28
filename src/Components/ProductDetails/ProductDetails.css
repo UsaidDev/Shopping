@@ -1,0 +1,31 @@
+/* ProductDetails.css */
+.product-details {
+    text-align: center;
+    padding: 20px;
+    border: 3px solid #ddd;
+    margin: 20px;
+    border-radius: 10px;
+    
+  }
+  
+  .product-image {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+  }
+  
+  .product-titles {
+    margin-top: 20px;
+  }
+  .product-title{
+    color: red;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 700;
+  }
+  .price{
+    font-size: 20px;
+    font-weight: 700;
+  }
+  .product-description{
+    font-size: 20px;
+  }

@@ -10,10 +10,10 @@ function Navbar() {
         <Link to='/' className='link'>
           Shop
         </Link>
-        <Link to='/cart' className='link'>
+        <Link to='cart' className='link'>
           <FontAwesomeIcon icon={faShoppingCart} />
         </Link>
-      </div>
+      </div> 
     </nav>
   )
 }
