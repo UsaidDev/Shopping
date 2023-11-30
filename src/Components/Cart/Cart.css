@@ -1,0 +1,11 @@
+.cart-products{
+    height:430px;
+    width: 230px;
+    border: 1px outset ;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 50px;
+}
+.cart-image{
+    border-radius: 10px;
+}

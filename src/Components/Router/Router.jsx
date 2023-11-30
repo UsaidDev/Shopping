@@ -11,7 +11,6 @@ function Router() {
       <Navbar />
       <Routes>
         <Route path='/' element={<Home />} />
-        
         <Route path='/cart' element={<Cart />} />
         <Route path='/cart/product/:id' element={<ProductDetails />} />
       </Routes>
