@@ -7,7 +7,7 @@ function Home() {
   return (
     <div>
       <div className="home-heading">
-        <h1 className='title'>Apple Shop</h1>
+        <h1 className='home-title'>Apple Shop</h1>
       </div>
       <div className="container">
         <div className="row mt-4">
@@ -23,7 +23,6 @@ function Home() {
                   <h5 className="card-title">{e.title}</h5>
                   <p className="card-text description">{e.description}</p>
                   <p className='card-text price'>₹{e.price}</p>
-
                   <Link to={`/cart/product/${e.id}`} className='btn btn-primary' >
                     Product Details
                   </Link>
