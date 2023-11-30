@@ -14,7 +14,7 @@ function Home() {
           {Products.map((e, index) => (
             <div className='col-12 col-md-12 col-lg-4 mb-4' key={e.id}>
               <div className="card mt-3 mx-auto">
-                <img className="card-img-top" src={e.image} alt="Card image cap" />
+                <img className="card-img-top" src={e.image} alt="Imageloading" />
                 <div className="card-body text-center">
                   <h5 className="card-title">{e.title}</h5>
                   <p className="card-text description">{e.description}</p>
